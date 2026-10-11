@@ -458,7 +458,7 @@ textarea:focus {
 .hero-bg {
   position: absolute;
   inset: 0;
-  background: url('../images/hero-main-background.png') center/cover no-repeat;
+  background: url('../images/hero-main-background-clean.png') center/cover no-repeat;
   z-index: 1;
 }
 

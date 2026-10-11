@@ -39,6 +39,7 @@ require __DIR__ . '/includes/header.php';
         <div class="hero-actions">
           <a href="programas" class="btn btn-primary">Ver Programas</a>
           <a href="nosotros" class="btn btn-secondary">Nuestra Misión</a>
+          <a href="congreso" class="btn btn-secondary">Congresos</a>
         </div>
       </div>
     </section>

@@ -9,7 +9,7 @@ require_once dirname(__DIR__) . '/config/recaptcha.php';
   <title>Login - Fundación DU</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/admin.css">
-  <link rel="stylesheet" href="assets/css/login.css">
+  <link rel="stylesheet" href="assets/css/login.css?v=<?= filemtime(__DIR__ . '/assets/css/login.css') ?>">
   <!-- Logo de la Fundación DU en la pestaña del navegador. Se usa el favicon de
        64px y no logo-fdu.png (640 KB), que es demasiado pesado para una pestaña. -->
   <link rel="icon" type="image/png" href="assets/images/favicon.png">
@@ -43,4 +43,3 @@ require_once dirname(__DIR__) . '/config/recaptcha.php';
   <script src="assets/js/login.js?v=<?= filemtime(__DIR__ . '/assets/js/login.js') ?>"></script>
 </body>
 </html>
-

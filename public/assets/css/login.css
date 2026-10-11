@@ -3,7 +3,7 @@ html, body {
 }
 
 .login-body {
-  background: url('../images/hero-main-background.png') center/cover no-repeat fixed;
+  background: url('../images/hero-main-background-clean.png') center/cover no-repeat fixed;
   min-height: 100vh;
   display: flex;
   align-items: center;
